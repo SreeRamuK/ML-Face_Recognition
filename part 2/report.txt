@@ -1,0 +1,21 @@
+Data pre-processing:
+
+Images with multiple faces will not get loaded in Data
+Only data of the Face in the image will get loaded
+size of image data loaded will get resized into specific size
+
+
+captured image will get tested
+
+
+
+
+
+Models used:
+
+Random forest, Logistic Regression, Linear SVM and Polynomial SVM
+
+
+
+Models will get designed each time you execute the code and this is the reason to take 5 to 6 minutes for total execution.
+Model won't even take a second to predict the captured image
