@@ -9,3 +9,6 @@ Time for executing Logistic Regression model: around 5 minutes
 Time for executing Linear SVM: around 1 minute
 
 Time for executing Polynomial SVM: around 1 minute
+
+
+** Please install all the required modules before executing the code **
