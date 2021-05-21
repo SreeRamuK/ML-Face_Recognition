@@ -6,4 +6,6 @@ Time for executing Random Forest model: less than 0.01 second
 
 Time for executing Logistic Regression model: around 5 minutes
 
-Time for executing SVM: around 1 minute for each kernel function
+Time for executing Linear SVM: around 1 minute
+
+Time for executing Polynomial SVM: around 1 minute
