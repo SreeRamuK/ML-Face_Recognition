@@ -18,6 +18,7 @@ from sklearn.linear_model import LogisticRegression
 
 
 
+
 print()
 print("Image will get captured in 10 seconds")
 

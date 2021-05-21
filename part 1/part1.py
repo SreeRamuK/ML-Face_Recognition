@@ -118,18 +118,22 @@ y_tes = clf.predict(x_test)
 print("-------- Random Forest --------")
 print()
 
-print("Confusion matrix:")
-print()
+
 print("Training accuracy:", metrics.accuracy_score(y_tra, y_train)*100, "%")
+print()
+
+print("Confusion matrix:")
 print()
 
 print(metrics.confusion_matrix(y_tra, y_train))
 print()
 print()
 
-print("Confusion matrix:")
-print()
+
 print("Testing accuracy:", metrics.accuracy_score(y_tes, y_test)*100, "%")
+print()
+
+print("Confusion matrix:")
 print()
 
 print(metrics.confusion_matrix(y_tes, y_test))
@@ -170,11 +174,13 @@ print(metrics.confusion_matrix(y_tra, y_train))
 print()
 print()
 
+
 print("Testing accuracy:", metrics.accuracy_score(y_tes, y_test)*100, "%")
 print()
 
 print("Confusion matrix:")
 print()
+
 print(metrics.confusion_matrix(y_tes, y_test))
 
 print()
@@ -207,16 +213,23 @@ print()
 
 print("Confusion matrix:")
 print()
+
 print(metrics.confusion_matrix(y_tra, y_train))
 print()
 print()
+
 
 print("Testing accuracy:", metrics.accuracy_score(y_tes, y_test)*100, "%")
 print()
 
 print("Confusion matrix:")
 print()
+
 print(metrics.confusion_matrix(y_tes, y_test))
+
+
+print()
+print()
 
 
 
@@ -245,13 +258,16 @@ print()
 
 print("Confusion matrix:")
 print()
+
 print(metrics.confusion_matrix(y_tra, y_train))
 print()
 print()
+
 
 print("Testing accuracy:", metrics.accuracy_score(y_tes, y_test)*100, "%")
 print()
 
 print("Confusion matrix:")
 print()
+
 print(metrics.confusion_matrix(y_tes, y_test))
